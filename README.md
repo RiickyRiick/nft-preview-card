@@ -224,8 +224,8 @@ I then moved on to the hover pseudo-class:
  transform: scale(1.2);
 }
 ```
-So, I first added a bg-color: white to give it a faded effect. I also added an 11px for the white background, not how from the corners, keeping it close to the same size as the .negt-image borders at 10px. I then needed to target the .nft-image and .view-icon; however, as I mentioned before since I wrapped them together within the. img-wrapper, I can then use .img-wrapper to trigger the hover effect.
-In other words, the .nft-image and .view-icon image will only trigger their effect when you go over the .img-wrapper, which covers the full width of the parent container. 
+So, I first added a background-color: white to give it a faded effect. I also added an 11px for the white background, not how from the corners, keeping it close to the same size as the .nft-image borders at 10px. I then needed to target the .nft-image and .view-icon; however, as I mentioned before since I wrapped them together within the. img-wrapper, I can then use .img-wrapper to trigger the hover effect.
+In other words, the .nft-image and .view-icon image will only trigger their effect when you go over the .img-wrapper, which covers the full width of the parent container.
 
 ### Continued development
 

@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://riickyriick.github.io/nft-preview-card/
 
 ## My process
 

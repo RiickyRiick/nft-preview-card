@@ -72,6 +72,8 @@ HTML:
 
 However, hovering over the image, displaying a white background color, overlaying another picture, and adding a smooth transition is still relatively new. This led me to learn more about using an image wrapper to execute this hover image overlay. 
 
+However, hovering over the image, displaying a white background color, overlaying another picture, and adding a smooth transition is still relatively new. This led me to learn more about using an image wrapper to execute this hover image overlay. 
+
 --I learned how to be clearer when naming my classes. 
 For example, this is my code before I rewrote it:
 
@@ -88,7 +90,7 @@ For example, this is my code before I rewrote it:
         <a class="number" href="#">
           <h1>Equilibrium 3429</h1>
         </a>
-        <p class="pro-des same-color">Our Equilibrium collection promotes balance and calm.</p>
+        <p class="pro-des">Our Equilibrium collection promotes balance and calm.</p>
         <section class="eth-days">
           <div class="price-container">
             <img class="img-eth" src="./images/icon-ethereum.svg" alt="ethereum">
@@ -130,12 +132,12 @@ For example, this is my code before I rewrote it:
         </div>
         <div class="time-info">
           <img class="timer-icon" src="./images/icon-clock.svg" alt="clock">
-          <p class="timer-text same-color"></p>
+          <p class="timer-text"></p>
         </div>
       </section>
       <section class="creator-info">
         <img class="creator-avatar" src="./images/image-avatar.png" alt="avatar">
-        <p><span class="creator-label same-color"></span> <a class="creator-name" href="#"></a></p>
+        <p><span class="creator-label"></span> <a class="creator-name" href="#"></a></p>
     </div>
     </section>
   </article>
@@ -143,7 +145,6 @@ For example, this is my code before I rewrote it:
 ```
 ...as you can see, it is much more organized. I eliminated the redundancy 
 and gave all the classes more precise and concise names.
-
 ____________________________________________________________________________
 
 Another thing I learned was how to overlay a background color and display an 

@@ -162,8 +162,7 @@ I started by wrapping the images together to use .img-wrapper as a position: rel
 </article>
 ```
 
-I also used percentages for the top, bottom, and transform since pixels gave it a fixed size. This caused me problems when shrinking the viewport. When I used percentages in properties like transform: translate(-10%, -10%), the values were calculated relative to the size of the element itself (in this case, the .view-icon). 
-As the size of the icon changes (for example, if it gets smaller due to a resizing viewport), the translation also scales accordingly. This maintains the intended visual position over the image.
+-I also used percentages for the top, bottom, and transform since pixels fixed the size, which caused problems when shrinking the viewport. When I used percentages in properties like transform: translate(-10%, -10%), the values were calculated relative to the size of the element itself (in this case, the .view-icon). As the icon's size changes (for example, if it gets smaller due to a resizing viewport), the translation also scales accordingly. This maintains the intended visual position over the image.
 
 For Example:
 

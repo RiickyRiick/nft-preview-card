@@ -70,7 +70,9 @@ I approached my HTML and CSS in a more "professional way." By this, I mean I foc
 
 HTML:
 
---I learned how to be more clear when naming my classes. 
+However, hovering over the image, displaying a white background color, overlaying another picture, and adding a smooth transition is still relatively new. This led me to learn more about using an image wrapper to execute this hover image overlay. 
+
+--I learned how to be clearer when naming my classes. 
 For example, this is my code before I rewrote it:
 
 ```html
@@ -140,7 +142,7 @@ For example, this is my code before I rewrote it:
 </main>
 ```
 ...as you can see, it is much more organized. I eliminated the redundancy 
-and gave all the classes a more more precise and concise names. 
+and gave all the classes more precise and concise names.
 
 ____________________________________________________________________________
 

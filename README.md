@@ -75,68 +75,69 @@ For example, this is my code before I rewrote it:
 
 ```html
 <main class="container">
- <article class="card">
- <div class="card-content">
- <a class="equil-hover" href="#">
- <div class="img-container">
- <img class="img-equil" src="./images/image-equilibrium.jpg" alt="equilibrium image">
- <img class="img-view" src="./images/icon-view.svg" alt="icon view">
- </div>
- </a>
- <div class="content-text">
- <a class="number" href="#"><h1>Equilibrium 3429</h1></a>
- <p class="pro-des same-color">Our Equilibrium collection promotes balance and calm.</p>
- <section class="eth-days">
- <div class="price-container">
- <img class="img-eth" src="./images/icon-ethereum.svg" alt="ethereum">
- <p class="eth">0.041 ETH</p>
- </div>
- <div class="time-container">
- <img class="img-clock" src="./images/icon-clock.svg" alt="clock">
- <p class="time same-color">3 days left</p>
- </div>
- </section>
- <section class="jules">
- <img class="img-jules" src="./images/image-avatar.png" alt="avatar">
- <p><span class="same-color">Creation of</span><a class="name" href="#">Jules Wyvern</a></p>
- </div>
- </section>
- </div>
- </article>
- </main>
+  <article class="card">
+    <div class="card-content">
+
+      <div class="img-container">
+        <img class="img-equil" src="./images/image-equilibrium.jpg" alt="equilibrium image">
+        <img class="img-view" src="./images/icon-view.svg" alt="icon view">
+      </div>
+      <div class="content-text">
+        <a class="number" href="#">
+          <h1>Equilibrium 3429</h1>
+        </a>
+        <p class="pro-des same-color">Our Equilibrium collection promotes balance and calm.</p>
+        <section class="eth-days">
+          <div class="price-container">
+            <img class="img-eth" src="./images/icon-ethereum.svg" alt="ethereum">
+            <p class="eth">0.041 ETH</p>
+          </div>
+          <div class="time-container">
+            <img class="img-clock" src="./images/icon-clock.svg" alt="clock">
+            <p class="time same-color">3 days left</p>
+          </div>
+        </section>
+        <section class="jules">
+          <img class="img-jules" src="./images/image-avatar.png" alt="avatar">
+          <p><span class="same-color">Creation of</span><a class="name" href="#">Jules Wyvern</a></p>
+      </div>
+      </section>
+    </div>
+  </article>
+</main>
 ```
 ...and this is my code after I revised it: 
 ```html
- <main class="portfolio-container">
- <article class="nft-card">
+<main class="portfolio-container">
+  <article class="nft-card">
 
- <div class="img-wrapper">
- <img class="nft-image" src="./images/image-equilibrium.jpg" alt="equilibrium image">
- <img class="view-icon" src="./images/icon-view.svg" alt="icon view">
- </div>
+    <div class="img-wrapper">
+      <img class="nft-image" src="./images/image-equilibrium.jpg" alt="equilibrium image">
+      <img class="view-icon" src="./images/icon-view.svg" alt="icon view">
+    </div>
 
- <div class="cards-details">
- <a class="card-title" href="#">
- <p></p>
- </a>
- <p class="card-description same-color"></p>
- <section class="price-timer">
- <div class="price-info">
- <img class="ethereum-icon" src="./images/icon-ethereum.svg" alt="ethereum">
- <p class="eth-text">/p>
- </div>
- <div class="time-info">
- <img class="timer-icon" src="./images/icon-clock.svg" alt="clock">
- <p class="timer-text same-color"></p>
- </div>
- </section>
- <section class="creator-info">
- <img class="creator-avatar" src="./images/image-avatar.png" alt="avatar">
- <p><span class="creator-label same-color"></span> <a class="creator-name" href="#"></a></p>
- </div>
- </section>
- </article>
- </main>
+    <div class="cards-details">
+      <a class="card-title" href="#">
+        <p></p>
+      </a>
+      <p class="card-description same-color"></p>
+      <section class="price-timer">
+        <div class="price-info">
+          <img class="ethereum-icon" src="./images/icon-ethereum.svg" alt="ethereum">
+          <p class="eth-text">/p>
+        </div>
+        <div class="time-info">
+          <img class="timer-icon" src="./images/icon-clock.svg" alt="clock">
+          <p class="timer-text same-color"></p>
+        </div>
+      </section>
+      <section class="creator-info">
+        <img class="creator-avatar" src="./images/image-avatar.png" alt="avatar">
+        <p><span class="creator-label same-color"></span> <a class="creator-name" href="#"></a></p>
+    </div>
+    </section>
+  </article>
+</main>
 ```
 ...as you can see, it is much more organized. I eliminated the redundancy 
 and gave all the classes a more more precise and concise names. 
@@ -150,10 +151,10 @@ I started by wrapping the images together to use .img-wrapper as a position: rel
 ```html
  <article class="nft-card">
 
- <div class="img-wrapper">
- <img class="nft-image" src="./images/image-equilibrium.jpg" alt="equilibrium image">
- <img class="view-icon" src="./images/icon-view.svg" alt="icon view">
- </div>
+   <div class="img-wrapper">
+     <img class="nft-image" src="./images/image-equilibrium.jpg" alt="equilibrium image">
+     <img class="view-icon" src="./images/icon-view.svg" alt="icon view">
+   </div>
       
 </article>
 ```
